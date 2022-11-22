@@ -4,126 +4,65 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Delivery Food</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Open+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
-    <div class="header">
-        <img src="img/logo.svg" alt="">
+<div class="section_header">
+    <div class="conteiner block">
+        <a href="#" class="logo">
+            <img src="img/logo.svg" alt="логотип" class="logo__img"> 
+        </a>
         <!-- Строка для поиска -->
-        <div class="input">
-            <img src="" alt="">
+        <input type="text" class="input input-adress" placeholder="Адрес доставки">
+        <div class="buttons">
+            <button class="button button__man button--primary">Войти</button>
+            <button class="button button__cart button--secondary">Корзина</button>
         </div>
-        <!-- Кнопки войти и корзина -->
-        <div class="but_go"></div>
-        <div class="but_basket"></div>
     </div>
-<div class="banner">
-    <div class="bg"></div>
-    <h1>Онлайн сервис доставки еды на дом</h1>
-    <h3>Блюда из любимого ресторана привезет курьер в перчатках, маске и с антисептиком</h3>
-    <img src="img/382142-svetik-removebg-preview 1.png" alt="">
-</div>
-<div class="section_restaurants">
-    <h1>Рестораны</h1>
+
+        
+ </div>
+<section class="section__promo">
+    <div class="conteiner promo__block">
+        <div class="promo__info">
+        <h1 class="promo__title">Онлайн-сервис <br> доставки еды на дом</h1>
+        <p class="promo__desc">Блюда из любимого ресторана привезет курьер в перчатках, маске и с антисептиком</p>
+        </div>
+    </div>
+</section>
+
+
+
+<section class="section__restourants">
+    <div class="conteiner">
+        <div class="restour__seach">
+            <h2 class="section__title">Рестораны</h2>
+            <input type="text" class="input input--search">
+        </div>
     <div class="cards">
-        <div class="card1">
-            <img src="img/card1.png" alt="">
-            <h3>Пицца плюс</h3>
-            <div class="but_time"></div>
-            <div class="info">
-                <h4>4,5</h4>
-                <h4>от 900 р</h4>
+        <div class="card">
+            <a href="#" class="card__header">
+                <img src="img/pizzaplus.png" alt="картинка" class="card__img"></a>
+            <div class="card__main">
+                <div class="card__title">
+                    <h3 class="title">Пицца плюс</h3>
+                    <span class="title__time">50 мин</span>
+                </div>
+                <div class="card__desc">
+                    <strong class="card__reit">4,5</strong>
+                    <span class="card__price">от 900 ₽</span>
+                    <p class="card__category">Пицца</p>
+ 
                 </div>
             </div>
         </div>
-        <div class="card2">
-            <img src="img/card2.png" alt="">
-            <h3>Тануки</h3>
-            <div class="but_time">50 мин</div>
-            <div class="info">
-                <div class="star"></div>
-                <p>4,5</p>
-                <p>от 900 р</p>
-                <div class="elipse"></div>
-                <p>Пицца</p>
-
-            </div>
-        </div>
-        <div class="card3">
-            <img src="img/card3.png" alt="">
-            <h3>FoodBand</h3>
-            <div class="but_time">50 мин</div>
-            <div class="info">
-                <div class="star"></div>
-                <p>4,5</p>
-                <p>от 900 р</p>
-                <div class="elipse"></div>
-                <p>Пицца</p>
-
-            </div>
-        </div>
-        <div class="card4">
-            <img src="img/card4.png" alt="">
-            <h3>Жадина-пицца</h3>
-            <div class="but_time">50 мин</div>
-            <div class="info">
-                <div class="star"></div>
-                <p>4,5</p>
-                <p>от 900 р</p>
-                <div class="elipse"></div>
-                <p>Пицца</p>
-
-            </div>
-        </div>
-        <div class="card5">
-            <img src="img/card5.png" alt="">
-            <h3>Точка еды</h3>
-            <div class="but_time">50 мин</div>
-            <div class="info">
-                <div class="star"></div>
-                <p>4,5</p>
-                <p>от 900 р</p>
-                <div class="elipse"></div>
-                <p>Пицца</p>
-
-            </div>
-        </div>
-        <div class="card6">
-            <img src="img/card6.png" alt="">
-            <h3>PizzaBurger</h3>
-            <div class="but_time">50 мин</div>
-            <div class="info">
-                <div class="star"></div>
-                <p>4,5</p>
-                <p>от 900 р</p>
-                <div class="elipse"></div>
-                <p>Пицца</p>
-
-            </div>
-        </div>
+    </div>    
     </div>
-    <div class="footer">
-        <img src="img/logo2.svg" alt="">
-        <div class="group_nav">
-            <ul>
-                <li>Ресторанам</li>
-                <li>Курьерам</li>
-                <li>Пресс-центр</li>
-                <li>Контакты</li>
-            </ul>
-        </div>
-        <!-- Социальные сети -->
-        <div class="soc_net">
-            <img src="img/inst.svg" alt="">
-            <img src="img/fb.svg" alt="">
-            <img src="img/vk.svg" alt="">
-        </div>
+</section>
 
-        
-    </div>
-    
-</div>
 </body>
 </html>
